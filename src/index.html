@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apexa_Website</title>
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<!--  Header start   -->
+
+<section class="bg-[#14176C]  font-[16px] font-semibold w-full p-3 flex items-start justify-around ">
+
+    <div class="flex items-center justify-normal gap-4">
+        <div class="flex items-center justify-center gap-2">
+            <i class="fa-solid fa-phone-volume text-gray-500"></i>
+        <a class="text-white" href="#">
+            +123 9898 500</a>
+        </div>
+
+
+        <div class="flex items-center justify-center gap-2">
+            <i class="fa-solid fa-location-dot text-gray-500"></i>
+                <p  class="text-white">256 Avenue, Mark Street, NewYork City</p>
+        </div>
+
+    </div>
+
+    <div class="flex items-center justify-normal gap-5">
+        <div class="flex items-center justify-center gap-2">
+            <i class="fa-regular fa-envelope text-gray-500"></i>
+        <a  class="text-white" href="#">info@apexa.com</a>
+        </div>
+
+        <div class="flex items-center justify-center gap-2">
+            <i class="fa-regular fa-clock text-gray-500"></i>
+            <p  class="text-white">Mon-Fri: 10:00am - 09:00pm</p>
+        </div>
+    </div>
+
+    
+
+</section>
+
+
+
+<section class="w-full h-screen bg-cover relative" style="background-image:  url('/images/bg-2.jpg');">
+<div class=" w-full  py-8  border-b-2 border-b-slate-200 bg-slate-300 bg-opacity-30 border-b-full ">
+    
+    <nav class="border-gray-200 ">
+    <div class="container mx-auto flex flex-wrap items-center justify-around">
+    
+        <a href="#" class="flex items-center justify-normal">
+            <a href="#"> <img src="/images/logo (1).png" alt=""></a>
+            
+        </a>
+        <button data-collapse-toggle="mobile-menu" type="button" class="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 rounded-lg inline-flex items-center justify-center" aria-controls="mobile-menu-2" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+        <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </button>
+        <div class="hidden md:block w-full md:w-auto" id="mobile-menu">
+        <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium">
+            
+            <li>
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="text-[#F7A400] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0  flex items-center justify-between w-full md:w-auto">Home <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                <!-- Dropdown menu -->
+                <div id="dropdownNavbar" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-48">
+                    <ul class="py-1 px-2 " aria-labelledby="dropdownLargeButton">
+                        <li><a class="hover:text-[#F7A400]" href="#">01. Business</a></li>
+                        <li><a class="hover:text-[#F7A400]" href="#">02. Finance</a></li>
+                        <li><a class="hover:text-[#F7A400]" href="#">03. Consulting</a></li>
+                        <li><a class="hover:text-[#F7A400]" href="#">04. Insurance</a></li>
+                        <li><a class="hover:text-[#F7A400]" href="#">05. Digital Agency</a></li>
+                        <li><a class="hover:text-[#F7A400]" href="#">06. Finance Solutions</a></li>
+                        <li><a class="hover:text-[#F7A400]" href="#">07. Accounting Services</a></li>
+                    </ul>
+                    <div class="py-1">
+                    <a href="#" class="text-sm hover:bg-gray-100 hover:text-[#F7A400] block px-4 py-2">Sign out</a>
+                    </div>
+                </div>
+            </li>
+
+
+
+            <li>
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class=" text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0  flex items-center justify-between w-full md:w-auto">About Us <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                <!-- Dropdown menu -->
+                <div id="dropdownNavbar" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-48">
+                    <ul class="py-1 px-2" aria-labelledby="dropdownLargeButton">
+                        <li><a class="hover:text-[#F7A400]" href="#">Business About</a></li>
+                        <li><a class="hover:text-[#F7A400]"   href="#">Finance About</a></li>
+                        <li><a class="hover:text-[#F7A400]" href="#">Consulting About</a></li>
+                        <li><a class="hover:text-[#F7A400]"  href="#">Insurance About</a></li>
+                        <li><a class="hover:text-[#F7A400]" href="#">Digital agency About</a></li>
+                    </ul>
+                    <div class="py-1">
+                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Sign out</a>
+                    </div>
+                </div>
+            </li>
+           
+
+
+
+            <li>
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0 flex items-center justify-between w-full md:w-auto">Services <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                <!-- Dropdown menu -->
+                <div id="dropdownNavbar" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-48">
+                    <ul class="py-1 px-2" aria-labelledby="dropdownLargeButton">
+                        <li> <a class="hover:text-[#F7A400]"   href="#">Business Service</a></li>
+                        <li> <a class="hover:text-[#F7A400]"  href="#">Finance Service</a></li>
+                        <li> <a class="hover:text-[#F7A400]"  href="#">Consulting Service</a></li>
+                        <li> <a class="hover:text-[#F7A400]"  href="#">Insurance Service</a></li>
+                        <li> <a class="hover:text-[#F7A400]"  href="#">Digital agency Service</a></li>
+                        <li> <a class="hover:text-[#F7A400]"  href="#">Service Details One</a></li>
+                        <li> <a class="hover:text-[#F7A400]"  href="#">Service Details Two</a></li>
+                        <li> <a class="hover:text-[#F7A400]"  href="#">Service Details Three</a></li>
+                        <li> <a class="hover:text-[#F7A400]"  href="#">Service Details Four</a></li>
+                        <li> <a class="hover:text-[#F7A400]"  href="#">Service Details Five</a></li>
+                    </ul>
+                    <div class="py-1">
+                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Sign out</a>
+                    </div>
+                </div>
+            </li>
+           
+
+
+            <li>
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0 flex items-center justify-between w-full md:w-auto">Pages <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                <!-- Dropdown menu -->
+                <div id="dropdownNavbar" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-48">
+                    <ul class="py-1 px-2" aria-labelledby="dropdownLargeButton">
+                        <li><a class="hover:text-[#F7A400]"  href="#">Team One</a></li>
+                        <li><a class="hover:text-[#F7A400]"  href="#">Team Two</a></li>
+                        <li><a class="hover:text-[#F7A400]"  href="#">Team Three</a></li>
+                        <li><a class="hover:text-[#F7A400]"  href="#">Team Four</a></li>
+                        <li><a class="hover:text-[#F7A400]"  href="#">Team Details</a></li>
+                        <li><a class="hover:text-[#F7A400]"  href="#">Project Details</a></li>
+                        <li><a class="hover:text-[#F7A400]"  href="#">404 Error Page</a></li>
+                        <li><a class="hover:text-[#F7A400]"  href="#">Login Page</a></li>
+                        <li><a class="hover:text-[#F7A400]"  href="#">Register Page</a></li>
+                        <li><a class="hover:text-[#F7A400]"  href="#">Forgot password Page</a></li>
+                    </ul>
+                    <div class="py-1">
+                        <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Sign out</a>
+                        </div>
+                </div>
+            </li>
+           
+
+
+            <li>
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0  flex items-center justify-between w-full md:w-auto">Blog <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                <!-- Dropdown menu -->
+                <div id="dropdownNavbar" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-44">
+                    <ul class="py-1" aria-labelledby="dropdownLargeButton">
+                    <li>
+                        <a  href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Our Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Blog Details</a>
+                    </li>
+                    
+                    </ul>
+                    <div class="py-1">
+                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Sign out</a>
+                    </div>
+                </div>
+            </li>
+           
+           
+
+
+           
+           
+            <li>
+            <a href="#" class="text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 block pl-3 pr-4 py-2  md:p-0">Contact</a>
+            </li>
+
+            <li class="text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:duration-300">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </li>
+
+                
+                <li>
+
+                    <a href="#_" class="px-7 py-4 items-center relative rounded group overflow-hidden  bg-[#F7A400] text-white inline-block font-bold">
+                        <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#0E104B] group-hover:h-full opacity-90"></span>
+                        <span class="relative group-hover:text-white">LET'S TALK</span>
+                        </a>
+                </li>
+
+
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    
+</div>
+
+
+<div>
+    <h1 class="font-bold text-center text-lg text-[#F7A400] pt-20">We Are Expert In This Field <span class="flex items-center justify-center  pt-8 animate-bounce">
+        <?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="40px" height="40px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<path d="M17 6v1h-17v-1h17zM0 10h17v-1h-17v1z" fill="#35366b" />
+</svg>
+    </span></h1>
+
+    <p class="text-6xl font-bold text-center  text-[#35366b] pt-10">Business Consulting <br>All Solutions</p>
+
+    <p class="text-[#080813] text-center pt-8 text-[18px]">Apexa helps you to convert your data into a strategic asset and get<br> business insights Apexa helps you to convert your data into asset<br> and get top-notch business insights.</p>
+    <div class="flex items-center justify-center pt-8">   <a href="#_" class="px-10 py-3 items-center relative rounded group overflow-hidden  bg-[#F7A400] text-white inline-block font-bold">
+        <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#0E104B] group-hover:h-full opacity-90">
+            
+              
+        </span>
+        <span class="relative group-hover:text-white">LET'S TALK </span>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[2px] top-[30%]">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+          </svg>
+        </a></div>
+
+</div>
+
+    <div class="text-[#191D88] text-[20px]  flex  justify-normal items-center gap-3 rotate-90 absolute bottom-[30%] left-[10%] ">
+        <p class="font-bold">Follow us--</p>
+        <i class="fa-brands fa-facebook hover:text-[#F7A400]"></i>
+        <i class="fa-brands fa-twitter hover:text-[#F7A400]"></i>
+        <i class="fa-brands fa-instagram hover:text-[#F7A400]"></i>
+        <i class="fa-brands fa-pinterest hover:text-[#F7A400]"></i>
+        <i class="fa-brands fa-linkedin-in hover:text-[#F7A400]"></i>
+        
+    </div>
+    <div class="absolute bottom-[4%] left-[20%] animate-spin">
+        <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="70px" height="70px" viewBox="0 0 24 24" id="meteor-icon-kit__regular-bars-circle" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM8 13C7.44772 13 7 12.5523 7 12C7 11.4477 7.44772 11 8 11H16C16.5523 11 17 11.4477 17 12C17 12.5523 16.5523 13 16 13H8ZM8 9C7.44772 9 7 8.55229 7 8C7 7.44772 7.44772 7 8 7H16C16.5523 7 17 7.44772 17 8C17 8.55229 16.5523 9 16 9H8ZM8 17C7.44772 17 7 16.5523 7 16C7 15.4477 7.44772 15 8 15H16C16.5523 15 17 15.4477 17 16C17 16.5523 16.5523 17 16 17H8Z" fill="#191D88"/></svg>
+    </div>
+    <div class="flex items-center justify-center absolute bottom-[12%] right-0  rotate-90 text-[#191D88] gap-1 cursor-pointer hover:text-[#F7A400]">
+        <p class=" font-bold ">Scroll Down</p>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+          </svg>
+          
+          
+                      
+    </div>
+
+</section>
+
+
+<!--  Header end  -->
+
+
+
+<!--  brand start  -->
+
+
+
+<div class="w-full inline-flex flex-nowrap mt-16 p-2 border-b border-b-gray-500 mb-20">
+    <ul class="flex items-center justify-center gap-x-5  md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
+        <li>
+            <img src="/images/brand_img01.png" alt="Facebook" />
+        </li>
+        <li>
+            <img src="/images/brand_img02.png" alt="Disney" />
+        </li>
+        <li>
+            <img src="/images/brand_img03.png" alt="Airbnb" />
+        </li>
+        <li>
+            <img src="/images/brand_img04.png" alt="Apple" />
+        </li>
+        
+        
+        
+       
+    </ul>
+    <ul class="flex items-center justify-center gap-x-5  md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll" aria-hidden="true">
+        <li>
+            <img src="/images/brand_img01.png" alt="Facebook" />
+        </li>
+        <li>
+            <img src="/images/brand_img02.png" alt="Disney" />
+        </li>
+        <li>
+            <img src="/images/brand_img03.png" alt="Airbnb" />
+        </li>
+        <li>
+            <img src="/images/brand_img04.png" alt="Apple" />
+        </li>
+        
+      
+        
+        
+       
+    </ul>
+</div>
+
+<!--  brand end  -->
+
+
+<!-- About start  -->
+
+<section class="p-10 w-[100%] h-screen bg-left-top bg-no-repeat grid grid-cols-2" style="background-image: url(/images/about_shape02.png);">
+    <div class="relative">
+
+        <div class="w[500px] flex items-center justify-center">
+        <img class="w[500px] h-[350px] flex items-center justify-center" src="/images/about_shape01.png" alt="">
+        </div>
+
+        <div class="absolute top-0 left-[30%]">
+        <img class="w-[400px]  rounded-full" src="/images/about_img01.jpg" alt="">
+    </div>
+    <div class="relative grid items-center">
+    <div class="bg-[#F7A400] w-24 h-24 rounded-full  flex items-center justify-center absolute left-[48%] bottom-0">
+        <i class="fa-solid fa-trophy text-5xl text-blue-900"></i>
+    </div>
+
+    <span id="text" class="text-lg text-white font-semibold bg-[#191D88] absolute left-[45%] transform origin-bottom-left rotate-90 animate-spin ">25 -YEARS-Of- EXPERIENCE</span>
+    
+
+</div>
+
+        
+
+
+    </div>
+
+    <div></div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- About end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+    
+
+
+
+    
+
+
+
+</body>
+</html>
