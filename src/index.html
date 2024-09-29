@@ -47,7 +47,7 @@
 
 
 <section class="w-full h-screen bg-cover relative " style="background-image:  url('/images/bg-2.jpg');">
-<div class=" w-full  py-8  border-b-2 border-b-slate-200 bg-slate-300 bg-opacity-30 border-b-full fixed">
+<div class=" w-full  py-8  border-b-2 border-b-slate-200 bg-slate-300 bg-opacity-30 border-b-full ">
     
     <nav class="border-gray-200 ">
     <div class="container mx-auto flex flex-wrap items-center justify-around">
@@ -266,7 +266,7 @@
 
 
 
-<div class="w-full inline-flex flex-nowrap mt-16 p-2 border-b border-b-gray-500 mb-20">
+<div class="w-full inline-flex flex-nowrap mt-16 p-2 border-b border-b-gray-500  py-4">
     <ul class="flex items-center justify-center   md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
         <li>
             <img src="/images/brand_img01.png" alt="Facebook" />
@@ -311,7 +311,7 @@
 
 <!-- About start  -->
 
-<section class="p-10 w-[100%] h-screen bg-left-top bg-no-repeat grid grid-cols-2" style="background-image: url(/images/about_shape02.png);">
+<section class="p-10 w-[100%]  bg-left-top bg-no-repeat grid grid-cols-2" style="background-image: url(/images/about_shape02.png);">
     <div class="relative">
 
         <div class="w[500px] flex items-center justify-center">
@@ -321,62 +321,39 @@
         <div class="absolute top-0 left-[30%]">
         <img class="w-[400px]  rounded-full" src="/images/about_img01.jpg" alt="">
     </div>
-    <div class="relative grid items-center">
-    <div class="bg-[#F7A400] w-24 h-24 rounded-full  flex items-center justify-center absolute left-[48%] bottom-0">
+    <div class=" grid items-center">
+
+        <div class="w-[170px] h-[170px] animate-spin absolute top-[44%] left-[40%] rounded-full bg-gradient-to-r from-[#191D88] from-10% via-sky-500 via-30% to-emerald-500 to-90% ...">
+    
+        </div>
+
+    <div class="bg-[#F7A400] w-24 h-24 rounded-full  flex items-center justify-center absolute left-[44%] top-[50%]">
         <i class="fa-solid fa-trophy text-5xl text-blue-900"></i>
     </div>
 
-    <span id="text" class="text-lg text-white font-semibold bg-[#191D88] absolute left-[45%] transform origin-bottom-left rotate-90 animate-spin ">25 -YEARS-Of- EXPERIENCE</span>
+    
     
 
 </div>
+    <img class="absolute top-0 right-0 animate-bounce" src="/images/about_shape03.png" alt="">
+    <img  class="absolute top-14 right-0 animate-pulse" src="/images/about_shape04.png" alt="">
 
         
 
 
     </div>
 
-    <!--<div>
-        <p class="text-[#F7A400] font-bold py-3">Simply Know About</p>
-        <article class="text-4xl font-bold text-[#191D88] py-3">We Help Organizations To<br>
-            Make Ultimate Businesses<br>
-            Growth Success.</article>
-
-
-            <div class="flex items-center justify-between">
-                <div class="">
-                    <div class="text-4xl bg-pink-200 px-2 py-2 cursor-pointer rounded-md">
-                    <i class="fa-solid fa-bullseye text-[#F7A400]  hover:rotate-45"></i>
-                </div>
-                    <div>
-                        <h1 class="text-[#191D88] text-lg font-bold">Business Solutions</h1>
-                        <p class="text-[#191D88]">Semper egetuis tellus<br> urna condi</p>
-                    </div>
-                </div>
-                <div class="flex items-center justify-center">
-                <div class="flex items-center justify-between gap-x-2">
-                    <div class="text-4xl bg-pink-200 px-2 py-2 cursor-pointer rounded-md">
-                        <i class="fa-solid fa-school-lock text-[#F7A400]  hover:rotate-90"></i>
-                </div>
-
-                <div>
-                    <h1 class="text-[#191D88] text-lg font-bold">Quality Services</h1>
-                    <p class="text-[#191D88]">Semper egetuis tellus<br> urna condi</p>
-                </div>
-                </div>
-            </div>
-
-                <div>
-
+            <section class=" text-center justify-center">
+            <p class="text-[#F7A400] font-bold py-3 pr-10">Simply Know About</p>
+            <article class="text-4xl font-bold text-[#191D88] py-3">We Help Organizations To<br>
+                Make Ultimate Businesses<br>
+                Growth Success.</article>
+            <div class="flex items-start justify-center gap-x-4 py-5">
                 
-            </div>-->
-
-
-            <div class="flex items-center justify-center gap-x-6">
                 
-                    <div class="flex items-center justify-center gap-x-2">
+                    <div class="flex items-start justify-center gap-x-2">
                         <div class="text-4xl bg-pink-200 px-4 py-4 cursor-pointer rounded-md">
-                        <i class="fa-solid fa-bullseye text-[#F7A400]  hover:rotate-45"></i>
+                        <i class="fa-solid fa-bullseye text-[#F7A400]  hover:transform hover:rotate-[-180deg]"></i>
                     </div>
                         <div>
                             <h1 class="text-[#191D88] text-lg font-bold">Business Solutions</h1>
@@ -384,9 +361,9 @@
                         </div>
                     </div>
 
-                    <div class="flex items-center justify-center gap-x-2">
+                    <div class="flex items-start justify-center gap-x-2">
                         <div class="text-4xl bg-pink-200 px-4 py-4 cursor-pointer rounded-md">
-                        <i class="fa-solid fa-school-lock text-[#F7A400]  hover:rotate-45"></i>
+                        <i class="fa-solid fa-school-lock text-[#F7A400]   hover:transform hover:rotate-[-180deg]"></i>
                     </div>
                         <div>
                             <h1 class="text-[#191D88] text-lg font-bold">Business Solutions</h1>
@@ -394,13 +371,283 @@
                         </div>
                     </div>
                     
+                    
 
                 </div>
             
 
+                <p class="flex flex-col text-[#191D88] text-lg py-5">We successfully cope with tasks of varying complexityprovide longerty<br> term guarantees and regularly master new Practice Area technol <br>ogiesOur portfolio includes dozen</p>
+                <div class="flex items-center justify-center gap-x-3 py-5">
+                    <div>
+                        <img class="mr-5 w-20 flex items-center justify-center" src="/images/author_img.png" alt="">
+                    </div>
+                    <div class="flex items-start justify-center flex-col">
+                        <img class="w-28" src="/images/sign.png" alt="">
+                        <p class="text-lg font-bold text-[#191D88]">Martinaze , <span class="text-[#191D88] text-sm font-semibold">CEO</span></p>
+                    </div>
 
+                    <div class="flex items-center justify-center pt-8">   <a href="#_" class="px-10 py-3 items-center relative rounded group overflow-hidden  bg-[#191D88] text-white inline-block font-bold">
+                        <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#F7A400] group-hover:h-full opacity-90">
+                            
+                              
+                        </span>
+                        <span class="relative group-hover:text-white">LET'S TALK </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[2px] top-[30%]">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                          </svg>
+                        </a></div>
+
+                    
+
+                </div>
+
+    </section>
+</section>
+
+
+<!-- About end  -->
+
+
+
+<!--Service start  -->
+
+<section class=" w-full h-screen bg-cover bg-center" style="background-image:  url('/images/services_bg.jpg');">
+
+    <h1 class="text-[#F7A400] font-bold text-lg text-center pt-[120px]">WHAT WE OFFER</h1>
+    <p class="text-[#191D88] font-bold text-4xl text-center pt-3">We Offer An Effective Wide<br>
+        Area Business solutions</p>
+        
+        <div class="container mx-auto grid grid-cols-4 items-center justify-center pt-16">
+
+            <div class="bg-white relative  items-center justify-center w-[270px] rounded-br-lg rounded-bl-lg hover:shadow-xl">
+                <img class=" h-[200px] rounded-tr-xl rounded-tl-md rounded-bl-full" src="/images/services_img01.jpg" alt="">
+                <div class="w-14 h-14 rounded-full bg-[#cfe2ff] hover:text-white  hover:bg-[#191D88] absolute top-[36%] left-16 cursor-pointer">
+                <i class="fa-solid fa-school-lock text-[#191D88] text-2xl text-center hover:text-white  justify-center   absolute bottom-4  left-[20%]"></i>
+            </div>
+            <p class="pt-8  text-center text-[#191D88] text-xl font-bold hover:text-[#F7A400] cursor-pointer">Strategic marketing</p>
+            <article class="text-[#191D88] py-4 text-center text-lg font-semibold">Morem ipsum dolor sittemet,<br> consectetur adipiscing.</article>
+            <!--button start  -->
+            <div class="flex items-center justify-center pt-5 mb-4">   <a href="#_" class="px-10 py-3 items-center relative rounded group overflow-hidden  bg-[#cfe2ff] text-[#191D88] inline-block font-bold">
+                <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#191D88] group-hover:h-full opacity-90">
+                    
+                      
+                </span>
+                <span class="relative group-hover:text-white">READ MORE  </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[2px] top-[30%] group-hover:text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>
+                </a></div>   <!--button end  -->
+
+
+            </div>
+
+
+
+            <div class="bg-white relative  items-center justify-center w-[270px] rounded-br-lg rounded-bl-lg hover:shadow-xl">
+                <img class=" h-[200px] rounded-tr-xl rounded-tl-md rounded-bl-full" src="/images/services_img02.jpg" alt="">
+                <div class="w-14 h-14 rounded-full bg-[#cfe2ff] hover:text-white  hover:bg-[#191D88] absolute top-[36%] left-16 cursor-pointer">
+                <i class="fa-solid fa-hand-holding-dollar text-[#191D88] text-2xl text-center hover:text-white  justify-center   absolute bottom-4  left-[30%]"></i>
+                
+            </div>
+            <p class="pt-8  text-center text-[#191D88] text-xl font-bold hover:text-[#F7A400] cursor-pointer">Investment Planning</p>
+            <article class="text-[#191D88] py-4 text-center text-lg font-semibold">Morem ipsum dolor sittemet,<br> consectetur adipiscing.</article>
+            <!--button start  -->
+            <div class="flex items-center justify-center pt-5 mb-4">   <a href="#_" class="px-10 py-3 items-center relative rounded group overflow-hidden  bg-[#cfe2ff] text-[#191D88] inline-block font-bold">
+                <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#191D88] group-hover:h-full opacity-90">
+                    
+                      
+                </span>
+                <span class="relative group-hover:text-white">READ MORE  </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[2px] top-[30%] group-hover:text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>
+                </a></div>   <!--button end  -->
+            </div>
+
+            <div class="bg-white relative  items-center justify-center w-[270px] rounded-br-lg rounded-bl-lg hover:shadow-xl">
+                <img class=" h-[200px] rounded-tr-xl rounded-tl-md rounded-bl-full" src="/images/services_img03.jpg" alt="">
+                <div class="w-14 h-14 rounded-full bg-[#cfe2ff] hover:text-white  hover:bg-[#191D88] absolute top-[36%] left-16 cursor-pointer">
+                <i class="fa-solid fa-circle-notch text-[#191D88] text-2xl text-center hover:text-white  justify-center   absolute bottom-4  left-[30%]"></i>
+                
+            </div>
+            <p class="pt-8  text-center text-[#191D88] text-xl font-bold hover:text-[#F7A400] cursor-pointer">Insights & analytics</p>
+            <article class="text-[#191D88] py-4 text-center text-lg font-semibold">Morem ipsum dolor sittemet,<br> consectetur adipiscing.</article>
+            <!--button start  -->
+            <div class="flex items-center justify-center pt-5 mb-4">   <a href="#_" class="px-10 py-3 items-center relative rounded group overflow-hidden  bg-[#cfe2ff] text-[#191D88] inline-block font-bold">
+                <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#191D88] group-hover:h-full opacity-90">
+                    
+                      
+                </span>
+                <span class="relative group-hover:text-white">READ MORE </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[2px] top-[30%] group-hover:text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>
+                </a></div>   <!--button end  -->
+            </div>
+
+
+            <div class="bg-white relative  items-center justify-center w-[270px] rounded-br-lg rounded-bl-lg hover:shadow-lg">
+                <img class=" h-[200px] rounded-tr-xl rounded-tl-md rounded-bl-full" src="/images/services_img04.jpg" alt="">
+                <div class="w-14 h-14 rounded-full bg-[#cfe2ff] hover:text-white  hover:bg-[#191D88] absolute top-[36%] left-16 cursor-pointer">
+                <i class="fa-regular fa-lightbulb text-[#191D88] text-2xl text-center hover:text-white  justify-center   absolute bottom-4  left-[33%]"></i>
+        
+            </div>
+            <p class="pt-8  text-center text-[#191D88] text-xl font-bold hover:text-[#F7A400] cursor-pointer">Business consulting</p>
+            <article class="text-[#191D88] py-4 text-center text-lg font-semibold">Morem ipsum dolor sittemet,<br> consectetur adipiscing.</article>
+            <!--button start  -->
+            <div class="flex items-center justify-center pt-5 mb-4">   <a href="#_" class="px-10 py-3 items-center relative rounded group overflow-hidden  bg-[#cfe2ff] text-[#191D88] inline-block font-bold">
+                <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#191D88] group-hover:h-full opacity-90">
+                    
+                      
+                </span>
+                <span class="relative group-hover:text-white">READ MORE  </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[2px] top-[30%] group-hover:text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>
+                </a></div>
+                
+                <!--button end  -->
+
+            </div>
+
+
+            </div>
+
+
+            <div class="flex items-center justify-center gap-x-5 pt-10">
+                <p class="text-[#191D88] text-lg font-semibold pt-6">Empowering Businesses through Strategic Consulting With Us</p>
+
+                <div class="flex items-center justify-center pt-8">   <a href="#_" class="px-14 py-3 items-center relative rounded group overflow-hidden  bg-[#F7A400] text-white inline-block font-bold ">
+                    <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#0E104B] group-hover:h-full opacity-90">
+                        
+                          
+                    </span>
+                    <span class="relative group-hover:text-white">SEE ALL SERVICES </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[2px] top-[30%]">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                    </a></div>
+
+
+            </div>
+            
+</section>
+
+<!--Service end  -->
+
+
+
+<!--Business start -->
+
+<section class="bg-[#171A7C] w-full pb-2 h-auto relative bg-right-top bg-no-repeat " style="background-image: url('/images/choose_shape02.png');">
+    <img class="absolute bottom-[3%] left-2 " src="/images/choose_shape01.png" alt="">
 
     
+
+    <div class="container mx-auto grid grid-cols-2">
+        <div class="pt-20">
+        <p class="text-[#F7A400] text-lg font-semibold text-center ">Why We Are The Best</p>
+        <h1 class="text-center text-white text-4xl font-bold pt-4">We Offer Business Insight<br>
+            World Class Consulting</h1>
+
+            <p class="text-white text-lg font-semibold text-center pt-5">We successfully cope with tasks of varying complexity provide <br>area longerty guarantees and regularly master new Practice<br> Following gies heur portfolio includes dozen.</p>
+
+            <div class="flex items-center justify-center gap-x-4 pt-8">
+                <i class="fa-solid fa-hand-holding-dollar text-[#F7A400] text-6xl"></i>
+                <div >
+                    <h1 class="text-white font-bold text-xl">
+                        Business Solutions</h1>
+                        <p class="text-white text-lg font-semibold pt-2">Semper egetuis kelly for tellus <br>urna area condition.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center justify-center gap-x-4 pt-8">
+                <i class="fa-solid fa-sack-dollar  text-[#F7A400] text-6xl"></i>
+                <div >
+                    <h1 class="text-white font-bold text-xl">
+                        Business Solutions</h1>
+                        <p class="text-white text-lg font-semibold pt-2">Semper egetuis kelly for tellus <br>urna area condition.</p>
+                </div>
+            </div>
+
+        
+        </div>
+
+
+    <div class="relative">
+        <img class="rounded-lg pt-24 relative z-0" src="/images/choose_img01.jpg" alt="">
+
+        <img class="rounded-lg absolute bottom-[2%] left-[-10%] " src="/images/choose_img02.jpg" alt="">
+
+        <img class="w-12 h-12 absolute left-[15%] -z-0 animate-bounce" src="/images/choose_img_shape.png" alt="">
+    </div>
+
+</div>
+    
+
+</section>
+
+
+
+
+<section class="bg-[#f0efec] w-full h-[350px] bg-right-bottom bg-no-repeat relative"  style="background-image: url('/images/counter_shape03.png');">
+    
+    <div class="w-auto h-screen bg-left-top bg-no-repeat"  style="background-image: url('/images/counter_shape01.png');">
+    <div class="container mx-auto  flex items-center justify-center gap-x-7 pt-[130px] ">
+        <div class="flex items-center justify-center gap-x-6">
+            <i class="fa-solid fa-trophy text-[#F7A400] text-6xl"></i>
+            <div>
+                <h1 class="text-[#191D88] text-5xl font-bold">45+</h1>
+                <p class="text-[#191D88] text-lg font-semibold">Successfully<br>
+                    Completed Projects</p>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-center gap-x-6">
+            <i class="fa-regular fa-face-laugh-beam text-[#F7A400] text-6xl"></i>
+            
+            <div>
+                <h1 class="text-[#191D88] text-5xl font-bold">92K</h1>
+                <p class="text-[#191D88] text-lg font-semibold">Satisfied<br>
+                    100% Our Clients</p>
+            </div>
+        </div>
+
+
+
+        <div class="flex items-center justify-center gap-x-6">
+            <i class="fa-solid fa-globe text-[#F7A400] text-6xl"></i>
+           
+            
+            <div>
+                <h1 class="text-[#191D88] text-5xl font-bold">19+</h1>
+                <p class="text-[#191D88] text-lg font-semibold">All Over The World<br>
+                    We Are Available</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="flex items-center justify-center gap-x-6">
+            <i class="fa-solid fa-globe text-[#F7A400] text-6xl"></i>
+           
+            
+            <div>
+                <h1 class="text-[#191D88] text-5xl font-bold">25+</h1>
+                <p class="text-[#191D88] text-lg font-semibold">Years of Experiences<br>
+                    To Run This Company</p>
+            </div>
+
+        </div>
+
+        
+
+    </div>
+   
+</div>
+<img class="absolute top-[15%] right-[6%] animate-bounce" src="/images/counter_shape02.png" alt="">
+
 </section>
 
 
@@ -411,8 +658,308 @@
 
 
 
+<!--Business end -->
 
-<!-- About end  -->
+
+
+<!--OUR PROJECTS Start -->
+
+
+<section class="w-full h-screen pt-28 relative">
+    
+    <div class="container mx-auto">
+
+    <p class="text-[#F7A400] font-semibold text-center">OUR PROJECTS</p>
+
+    <p class="text-[#191D88] text-4xl font-bold text-center pt-3 ">Let’s Discover All Our Clients<br>
+        Recent Project</p>
+
+        <div class=" grid grid-cols-4 pt-10 gap-x-20">
+
+            <!--Group Hover start-->
+           
+
+            <div class="group">
+                <div class="w-[453px] relative max-w-sm mx-auto h-[330px]">
+                
+                <img class="w-[453px] h-[330px] rounded-bl-[150px]  max-w-sm mx-auto  relative z-0" src="/images/project_img01.jpg" alt="">
+                <a href="#" class=" absolute w-full h-full top-0 left-0 bg-amber-600 opacity-0 z-10 transition-all  duration-300  ease-out transform translate-y-0 group-hover:h-[330px]  group-hover:opacity-40 hover:rounded-bl-[150px] group-hover:rounded-bl-[150px]"></a>
+
+            </div>
+
+            <!--Group Hover end-->
+
+                <div class="flex items-center justify-between ">
+                    <div>
+                    <h1 class="text-[#191D88] text-2xl font-bold pt-7 pl-6 cursor-pointer hover:text-[#F7A400]">Business Consulting</h1>
+                    <h4 class="text-[#F7A400]  text-lg font-bold pt-2 pl-6 pb-6">Business Strategy</h4>
+                </div>
+                    <div class="bg-[#cfe2ff] p-4 border border-gray-300 rounded-full w-14 h-14 flex items-center justify-center cursor-pointer hover:bg-[#191D88] ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-[#191D88] font-extrabold text-6xl group-hover:text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                          </svg>
+                          
+                    </div>
+                </div>
+            </div>
+
+
+
+
+             <!--Group Hover start-->
+             <div class="group">
+                <div class="w-[453px] relative max-w-sm mx-auto h-[330px]">
+                
+                <img class="w-[453px] h-[330px] rounded-bl-[150px]  max-w-sm mx-auto  relative z-0" src="/images/project_img02.jpg" alt="">
+                <a href="#" class=" absolute w-full h-full top-0 left-0 bg-amber-600 opacity-0 z-10 transition-all  duration-300  ease-out transform translate-y-0 group-hover:h-[330px]  group-hover:opacity-40 hover:rounded-bl-[150px] group-hover:rounded-bl-[150px]"></a>
+
+            </div>
+
+            <!--Group Hover end-->
+
+                <div class="flex items-center justify-between ">
+                    <div>
+                    <h1 class="text-[#191D88] text-2xl font-bold pt-7 pl-6 cursor-pointer hover:text-[#F7A400]">Digital Agency</h1>
+                    <h4 class="text-[#F7A400]  text-lg font-bold pt-2 pl-6 pb-6">Business Services</h4>
+                </div>
+                    <div class="bg-[#cfe2ff] p-4 border border-gray-300 rounded-full w-14 h-14 flex items-center justify-center cursor-pointer hover:bg-[#191D88] ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-[#191D88] font-extrabold text-6xl group-hover:text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                          </svg>
+                          
+                    </div>
+                </div>
+            </div>
+
+
+
+               <!--Group Hover start-->
+               <div class="group">
+                <div class="w-[453px] relative max-w-sm mx-auto h-[330px]">
+                
+                <img class="w-[453px] h-[330px] rounded-bl-[150px]  max-w-sm mx-auto  relative z-0" src="/images/project_img03.jpg" alt="">
+                <a href="#" class=" absolute w-full h-full top-0 left-0 bg-amber-600 opacity-0 z-10 transition-all  duration-300  ease-out transform translate-y-0 group-hover:h-[330px]  group-hover:opacity-40 hover:rounded-bl-[150px] group-hover:rounded-bl-[150px]"></a>
+
+            </div>
+
+            <!--Group Hover end-->
+
+                <div class="flex items-center justify-between ">
+                    <div>
+                    <h1 class="text-[#191D88] text-2xl font-bold pt-7 pl-6 cursor-pointer hover:text-[#F7A400]">Inventory Management</h1>
+                    <h4 class="text-[#F7A400]  text-lg font-bold pt-2 pl-6 pb-6">Inventory Trackings</h4>
+                </div>
+                    <div class="bg-[#cfe2ff] p-4 border border-gray-300 rounded-full w-14 h-14 flex items-center justify-center cursor-pointer hover:bg-[#191D88] ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-[#191D88] font-extrabold text-6xl group-hover:text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                          </svg>
+                          
+                    </div>
+                </div>
+            </div>
+
+
+               <!--Group Hover start-->
+               <div class="group">
+                <div class="w-[453px] relative max-w-sm mx-auto h-[330px]">
+                
+                <img class="w-[453px] h-[330px] rounded-bl-[150px]  max-w-sm mx-auto  relative z-0" src="/images/project_img04.jpg" alt="">
+                <a href="#" class=" absolute w-full h-full top-0 left-0 bg-amber-600 opacity-0 z-10 transition-all  duration-300  ease-out transform translate-y-0 group-hover:h-[330px]  group-hover:opacity-40 hover:rounded-bl-[150px] group-hover:rounded-bl-[150px]"></a>
+
+            </div>
+
+            <!--Group Hover end-->
+
+                <div class="flex items-center justify-between ">
+                    <div>
+                    <h1 class="text-[#191D88] text-2xl font-bold pt-7 pl-6 cursor-pointer hover:text-[#F7A400]">Business Accounting</h1>
+                    <h4 class="text-[#F7A400]  text-lg font-bold pt-2 pl-6 pb-6">Financing Management</h4>
+                </div>
+                    <div class="bg-[#cfe2ff] p-4 border border-gray-300 rounded-full w-14 h-14 flex items-center justify-center cursor-pointer hover:bg-[#191D88] ">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-[#191D88] font-extrabold text-6xl group-hover:text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                          </svg>
+                          
+                    </div>
+                </div>
+            </div>
+
+        
+
+
+             
+                
+              
+
+                
+            </div>
+            <div class="flex items-center justify-center gap-x-6 pt-6">
+            <p class="text-[#191D88] text-lg font-semibold pt-4 text-center">We successfully cope with tasks of varying complexity,<br>
+                provide long-term guarantees and regularly</p>
+                <div class="flex items-center justify-center ">
+                    
+    
+                    <div class="flex items-center justify-center pt-4">   <a href="#_" class="px-14 py-3 items-center relative rounded group overflow-hidden  bg-[#F7A400] text-white inline-block font-bold ">
+                        <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#0E104B] group-hover:h-full opacity-90">
+                            
+                              
+                        </span>
+                        <span class="relative group-hover:text-white">SEE ALL PROJECTS </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[2px] top-[30%]">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                          </svg>
+                        </a></div>
+    
+    
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <img class="absolute top-[21%] right-[3%] z-[-1] animate-spin" src="/images/project_shape02.png" alt="">
+    <img class="absolute bottom-[15%] left-[5%] rotate-[-45deg] animate-infinite-scroll" src="/images/project_shape01.png" alt="">
+
+</section>
+
+
+
+
+
+
+<!--OUR PROJECTS End -->
+
+
+
+ <!--The Best Experience start -->
+  <section class="w-full h-[600px] bg-cover bg-center pt-[20%] relative z-10" style="background-image: url(/images/pexels-fauxels-3184416.jpg);">
+    <div class=" absolute inset-0 w-full h-[600px] bg-cover bg-gray-700 bg-center  opacity-70 z-[-1]">
+        
+        <p class="text-white font-extrabold text-center pt-48  text-5xl">Offering The Best Experience Of<br>
+            Business Consulting Services</p>
+
+            <div class="flex items-center justify-center gap-8">
+
+                
+                    
+    
+                    <div class="flex items-center justify-center pt-16">   <a href="#_" class="px-14 py-3 items-center relative rounded group overflow-hidden  bg-[#0E104B] text-white inline-block font-bold ">
+                        <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#F7A400] group-hover:h-full opacity-90">
+                            
+                              
+                        </span>
+                        <span class="relative group-hover:text-white">REQUEST A FREE CALL </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[2px] top-[30%]">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                          </svg>
+                        </a></div>
+
+                        <div class="flex items-center justify-center pt-14 gap-x-2">
+                            <i class="fa-solid fa-phone text-[#F7A400] text-3xl"></i>
+                            <div>
+                                <p class="text-white font-semibold">
+                                    Toll Free Call</p>
+                                    <h1 class="text-white text-xl font-bold">+ 88 ( 9600 ) 6002</h1>
+                            </div>
+                        </div>
+    
+            </div>
+
+            <img class="absolute top-0" src="/images/request_shape01.png" alt="">
+
+            <img class="absolute bottom-0 right-0" src="/images/request_shape02.png" alt="">
+        
+    </div>
+
+  </section>
+
+
+ <!--The Best Experience end -->
+
+
+  <!--Our team start -->
+  <section class="container mx-auto pt-8">
+    <div class="flex items-center justify-between">
+            <div>
+            <p class="text-[#F7A400] text-lg font-semibold">MEET OUR TEAM</p>
+            <h1 class="text-[#191D88]  text-4xl font-bold">Financial Expertise You<br>
+                Can Trust</h1>
+            </div>
+                <div>
+                    <p class="text-[#191D88]  text-lg font-semibold">Our power of choice is untrammelled and when nothing preven <br>tsbeing able to do what we like best every pleasure.</p>
+                </div>
+        
+    </div>
+
+    <div class="grid grid-cols-4 pt-10 gap-x-6">
+
+        <div class=" border border-gray-300 rounded-xl overflow-hidden relative cursor-pointer  transform h-auto  w-auto transition duration-500 hover:scale-105">
+            
+            <img class="bg-[#cfe2ff] rounded-bl-[130px] ]" src="/images/team_img01.jpg" alt="">
+            <p class="text-[#191D88] text-xl font-bold text-center pt-3 hover:text-[#F7A400] cursor-pointer">Jone Cooper</p>
+            <p class="text-[#F7A400] text-lg font-semibold text-center py-3">Finance Advisor</p>
+            <div class="bg-white w-14 h-14 rounded-full flex items-center justify-center absolute top-[8%] right-[8%]">
+            <i class="fa-solid fa-square-share-nodes text-[#191D88] text-2xl"></i>
+        </div>
+
+        </div>
+
+        <div class=" border border-gray-300 rounded-xl overflow-hidden relative cursor-pointer  transform h-auto  w-auto transition duration-500 hover:scale-105">
+            <img class="bg-[#cfe2ff] rounded-bl-[130px] ]" src="/images/team_img02.jpg" alt="">
+            <p class="text-[#191D88] text-xl font-bold text-center pt-3 hover:text-[#F7A400] cursor-pointer">Eleanor Pena</p>
+            <p class="text-[#F7A400] text-lg font-semibold text-center py-3">Finance Advisor</p>
+            <div class="bg-white w-14 h-14 rounded-full flex items-center justify-center absolute top-[8%] right-[8%]">
+            <i class="fa-solid fa-square-share-nodes text-[#191D88] text-2xl"></i>
+        </div>
+
+        </div>
+
+
+        <div class=" border border-gray-300 rounded-xl overflow-hidden relative cursor-pointer  transform h-auto  w-auto transition duration-500 hover:scale-105">
+            <img class="bg-[#cfe2ff] rounded-bl-[130px] ]" src="/images/team_img03.jpg" alt="">
+            <p class="text-[#191D88] text-xl font-bold text-center pt-3 hover:text-[#F7A400] cursor-pointer">Floyd Miles</p>
+            <p class="text-[#F7A400] text-lg font-semibold text-center py-3">Finance Advisor</p>
+            <div class="bg-white w-14 h-14 rounded-full flex items-center justify-center absolute top-[8%] right-[8%]">
+            <i class="fa-solid fa-square-share-nodes text-[#191D88] text-2xl"></i>
+        </div>
+
+        </div>
+
+        <div class=" border border-gray-300 rounded-xl overflow-hidden relative cursor-pointer  transform h-auto  w-auto transition duration-500 hover:scale-105">
+            <img class="bg-[#cfe2ff] rounded-bl-[130px] ]" src="/images/team_img04.jpg" alt="">
+            <p class="text-[#191D88] text-xl font-bold text-center pt-3 hover:text-[#F7A400] cursor-pointer">Ralph Edwards</p>
+            <p class="text-[#F7A400] text-lg font-semibold text-center py-3">Finance Advisor</p>
+            <div class="bg-white w-14 h-14 rounded-full flex items-center justify-center absolute top-[8%] right-[8%]">
+            <i class="fa-solid fa-square-share-nodes text-[#191D88] text-2xl"></i>
+        </div>
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+  </section>
+
+
+
+
+
+
+  <!--Our team end -->
+
+
+
+
+
+
+
+
 
 
 
