@@ -11,7 +11,7 @@
 
 <!--  Header start   -->
 
-<section class="bg-[#14176C]  font-[16px] font-semibold w-full p-3 flex items-start justify-around ">
+<section class="bg-[#14176C]  font-[16px]  w-full md:p-3  items-start justify-around hidden sm:flex ">
 
     <div class="flex items-center justify-normal gap-4">
         <div class="flex items-center justify-center gap-2">
@@ -46,7 +46,7 @@
 
 
 
-<section class="w-full h-screen bg-cover relative " style="background-image:  url('/images/bg-2.jpg');">
+<section class="sm:w-full sm:h-screen sm:bg-cover sm:relative w-full h-auto bg-cover bg-center " style="background-image:  url('/images/banner_bg.jpg');">
 <div class=" w-full  py-8  border-b-2 border-b-slate-200 bg-slate-300 bg-opacity-30 border-b-full ">
     
     <nav class="border-gray-200 ">
@@ -68,37 +68,35 @@
                 <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="text-[#F7A400] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0  flex items-center justify-between w-full md:w-auto">Home <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
                 <!-- Dropdown menu -->
                 <div id="dropdownNavbar" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-48">
-                    <ul class="py-1 px-2 " aria-labelledby="dropdownLargeButton">
-                        <li><a class="hover:text-[#F7A400]" href="#">01. Business</a></li>
-                        <li><a class="hover:text-[#F7A400]" href="#">02. Finance</a></li>
-                        <li><a class="hover:text-[#F7A400]" href="#">03. Consulting</a></li>
-                        <li><a class="hover:text-[#F7A400]" href="#">04. Insurance</a></li>
-                        <li><a class="hover:text-[#F7A400]" href="#">05. Digital Agency</a></li>
-                        <li><a class="hover:text-[#F7A400]" href="#">06. Finance Solutions</a></li>
-                        <li><a class="hover:text-[#F7A400]" href="#">07. Accounting Services</a></li>
+                    <ul class="py-3 px-2 " aria-labelledby="dropdownLargeButton">
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold" href="#">01. Business</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold" href="#">02. Finance</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold" href="#">03. Consulting</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold" href="#">04. Insurance</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold" href="#">05. Digital Agency</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold" href="#">06. Finance Solutions</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold" href="#">07. Accounting Services</a></li>
                     </ul>
-                    <div class="py-1">
-                    <a href="#" class="text-sm hover:bg-gray-100 hover:text-[#F7A400] block px-4 py-2">Sign out</a>
-                    </div>
+                    
                 </div>
             </li>
+
+            
 
 
 
             <li>
-                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class=" text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0  flex items-center justify-between w-full md:w-auto">About Us <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                <button id="dropdownNavbarLink-2" data-dropdown-toggle="dropdownNavbar-z" class=" text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0  flex items-center justify-between w-full md:w-auto">About Us <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
                 <!-- Dropdown menu -->
-                <div id="dropdownNavbar" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-48">
-                    <ul class="py-1 px-2" aria-labelledby="dropdownLargeButton">
-                        <li><a class="hover:text-[#F7A400]" href="#">Business About</a></li>
-                        <li><a class="hover:text-[#F7A400]"   href="#">Finance About</a></li>
-                        <li><a class="hover:text-[#F7A400]" href="#">Consulting About</a></li>
-                        <li><a class="hover:text-[#F7A400]"  href="#">Insurance About</a></li>
-                        <li><a class="hover:text-[#F7A400]" href="#">Digital agency About</a></li>
+                <div id="dropdownNavbar-z" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-48">
+                    <ul class="py-3 px-2" aria-labelledby="dropdownLargeButton-2">
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold" href="#">Business About</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"   href="#">Finance About</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold" href="#">Consulting About</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Insurance About</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold" href="#">Digital agency About</a></li>
                     </ul>
-                    <div class="py-1">
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Sign out</a>
-                    </div>
+                    
                 </div>
             </li>
            
@@ -106,70 +104,62 @@
 
 
             <li>
-                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0 flex items-center justify-between w-full md:w-auto">Services <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                <button id="dropdownNavbarLink-3" data-dropdown-toggle="dropdownNavbar-a" class="text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0 flex items-center justify-between w-full md:w-auto">Services <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
                 <!-- Dropdown menu -->
-                <div id="dropdownNavbar" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-48">
-                    <ul class="py-1 px-2" aria-labelledby="dropdownLargeButton">
-                        <li> <a class="hover:text-[#F7A400]"   href="#">Business Service</a></li>
-                        <li> <a class="hover:text-[#F7A400]"  href="#">Finance Service</a></li>
-                        <li> <a class="hover:text-[#F7A400]"  href="#">Consulting Service</a></li>
-                        <li> <a class="hover:text-[#F7A400]"  href="#">Insurance Service</a></li>
-                        <li> <a class="hover:text-[#F7A400]"  href="#">Digital agency Service</a></li>
-                        <li> <a class="hover:text-[#F7A400]"  href="#">Service Details One</a></li>
-                        <li> <a class="hover:text-[#F7A400]"  href="#">Service Details Two</a></li>
-                        <li> <a class="hover:text-[#F7A400]"  href="#">Service Details Three</a></li>
-                        <li> <a class="hover:text-[#F7A400]"  href="#">Service Details Four</a></li>
-                        <li> <a class="hover:text-[#F7A400]"  href="#">Service Details Five</a></li>
+                <div id="dropdownNavbar-a" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-48">
+                    <ul class="py-3 px-2" aria-labelledby="dropdownLargeButton-3">
+                        <li> <a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"   href="#">Business Service</a></li>
+                        <li> <a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Finance Service</a></li>
+                        <li> <a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Consulting Service</a></li>
+                        <li> <a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Insurance Service</a></li>
+                        <li> <a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Digital agency Service</a></li>
+                        <li> <a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Service Details One</a></li>
+                        <li> <a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Service Details Two</a></li>
+                        <li> <a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Service Details Three</a></li>
+                        <li> <a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Service Details Four</a></li>
+                        <li> <a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Service Details Five</a></li>
                     </ul>
-                    <div class="py-1">
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Sign out</a>
-                    </div>
+                   
                 </div>
             </li>
            
 
 
             <li>
-                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0 flex items-center justify-between w-full md:w-auto">Pages <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                <button id="dropdownNavbarLink-4" data-dropdown-toggle="dropdownNavbar-b" class="text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0 flex items-center justify-between w-full md:w-auto">Pages <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
                 <!-- Dropdown menu -->
-                <div id="dropdownNavbar" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-48">
-                    <ul class="py-1 px-2" aria-labelledby="dropdownLargeButton">
-                        <li><a class="hover:text-[#F7A400]"  href="#">Team One</a></li>
-                        <li><a class="hover:text-[#F7A400]"  href="#">Team Two</a></li>
-                        <li><a class="hover:text-[#F7A400]"  href="#">Team Three</a></li>
-                        <li><a class="hover:text-[#F7A400]"  href="#">Team Four</a></li>
-                        <li><a class="hover:text-[#F7A400]"  href="#">Team Details</a></li>
-                        <li><a class="hover:text-[#F7A400]"  href="#">Project Details</a></li>
-                        <li><a class="hover:text-[#F7A400]"  href="#">404 Error Page</a></li>
-                        <li><a class="hover:text-[#F7A400]"  href="#">Login Page</a></li>
-                        <li><a class="hover:text-[#F7A400]"  href="#">Register Page</a></li>
-                        <li><a class="hover:text-[#F7A400]"  href="#">Forgot password Page</a></li>
+                <div id="dropdownNavbar-b" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-48">
+                    <ul class="py-3 px-2" aria-labelledby="dropdownLargeButton-4">
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Team One</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Team Two</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Team Three</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Team Four</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Team Details</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Project Details</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">404 Error Page</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Login Page</a></li> 
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Register Page</a></li>
+                        <li><a class="hover:text-[#F7A400] text-[#0E104B] font-semibold"  href="#">Forgot password Page</a></li>
                     </ul>
-                    <div class="py-1">
-                        <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Sign out</a>
-                        </div>
                 </div>
             </li>
            
 
 
             <li>
-                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0  flex items-center justify-between w-full md:w-auto">Blog <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
+                <button id="dropdownNavbarLink-5" data-dropdown-toggle="dropdownNavbar-c" class="text-[#0E104B] text-xl font-semibold hover:text-[#F7A400] hover:bg-gray-50 border-b border-gray-100 md:hover:bg-transparent md:border-0 pl-3 pr-4 py-2 md:p-0  flex items-center justify-between w-full md:w-auto">Blog <svg class="w-4 h-4 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
                 <!-- Dropdown menu -->
-                <div id="dropdownNavbar" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-44">
-                    <ul class="py-1" aria-labelledby="dropdownLargeButton">
+                <div id="dropdownNavbar-c" class="hidden bg-white text-base z-10 list-none divide-y divide-gray-100 rounded shadow my-4 w-44">
+                    <ul class="py-3 px-2" aria-labelledby="dropdownLargeButton-5">
                     <li>
-                        <a  href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Our Blog</a>
+                        <a  href="#" class="text-sm hover:bg-gray-100 text-[#0E104B] font-semibold hover:text-[#F7A400] block px-4 py-2">Our Blog</a>
                     </li>
                     <li>
-                        <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Blog Details</a>
+                        <a href="#" class="text-sm hover:bg-gray-100 text-[#0E104B] font-semibold block hover:text-[#F7A400] px-4 py-2">Blog Details</a>
                     </li>
                     
                     </ul>
-                    <div class="py-1">
-                    <a href="#" class="text-sm hover:bg-gray-100 text-gray-700 block px-4 py-2">Sign out</a>
-                    </div>
-                </div>
+                    
             </li>
            
            
@@ -215,7 +205,7 @@
 </svg>
     </span></h1>
 
-    <p class="text-6xl font-bold text-center  text-[#35366b] pt-10">Business Consulting <br>All Solutions</p>
+    <p class="text-3xl sm:text-6xl font-bold text-center  text-[#191D88] pt-10">Business Consulting <br>All Solutions</p>
 
     <p class="text-[#080813] text-center pt-8 text-[18px]">Apexa helps you to convert your data into a strategic asset and get<br> business insights Apexa helps you to convert your data into asset<br> and get top-notch business insights.</p>
     <div class="flex items-center justify-center pt-8">   <a href="#_" class="px-10 py-3 items-center relative rounded group overflow-hidden  bg-[#F7A400] text-white inline-block font-bold">
@@ -231,7 +221,7 @@
 
 </div>
 
-    <div class="text-[#191D88] text-[20px]  flex  justify-normal items-center gap-3 rotate-90 absolute bottom-[30%] left-[10%] ">
+    <div class="sm:text-[#191D88] sm:text-[20px]  sm:flex  sm:justify-normal sm:items-center sm:gap-3 sm:rotate-90 sm:absolute sm:bottom-[30%] sm:left-[10%] hidden">
         <p class="font-bold">Follow us--</p>
         <i class="fa-brands fa-facebook hover:text-[#F7A400]"></i>
         <i class="fa-brands fa-twitter hover:text-[#F7A400]"></i>
@@ -240,11 +230,11 @@
         <i class="fa-brands fa-linkedin-in hover:text-[#F7A400]"></i>
         
     </div>
-    <div class="absolute bottom-[4%] left-[20%] animate-spin">
+    <div class="sm:absolute sm:bottom-[4%] sm:left-[20%] sm:animate-spin animate-none">
         <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
 <svg width="70px" height="70px" viewBox="0 0 24 24" id="meteor-icon-kit__regular-bars-circle" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2ZM8 13C7.44772 13 7 12.5523 7 12C7 11.4477 7.44772 11 8 11H16C16.5523 11 17 11.4477 17 12C17 12.5523 16.5523 13 16 13H8ZM8 9C7.44772 9 7 8.55229 7 8C7 7.44772 7.44772 7 8 7H16C16.5523 7 17 7.44772 17 8C17 8.55229 16.5523 9 16 9H8ZM8 17C7.44772 17 7 16.5523 7 16C7 15.4477 7.44772 15 8 15H16C16.5523 15 17 15.4477 17 16C17 16.5523 16.5523 17 16 17H8Z" fill="#191D88"/></svg>
     </div>
-    <div class="flex items-center justify-center absolute bottom-[12%] right-0  rotate-90 text-[#191D88] gap-1 cursor-pointer hover:text-[#F7A400]">
+    <div class="sm:flex sm:items-center sm:justify-center sm:absolute sm:bottom-[12%] sm:right-0  sm:rotate-90 text-[#191D88] gap-1 cursor-pointer hover:text-[#F7A400] hidden">
         <p class=" font-bold ">Scroll Down</p>
 
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
@@ -311,24 +301,24 @@
 
 <!-- About start  -->
 
-<section class="p-10 w-[100%]  bg-left-top bg-no-repeat grid grid-cols-2" style="background-image: url(/images/about_shape02.png);">
+<section class="p-10 w-[100%]  sm:bg-left-top sm:bg-no-repeat grid sm:grid-cols-2 grid-cols-1" style="background-image: url(/images/about_shape02.png);">
     <div class="relative">
 
-        <div class="w[500px] flex items-center justify-center">
-        <img class="w[500px] h-[350px] flex items-center justify-center" src="/images/about_shape01.png" alt="">
+        <div class="sm:w[500px] sm:flex sm:items-center sm:justify-center hidden">
+        <img class="[500px] h-[350px] flex items-center justify-center " src="/images/about_shape01.png" alt="">
         </div>
 
-        <div class="absolute top-0 left-[30%]">
-        <img class="w-[400px]  rounded-full" src="/images/about_img01.jpg" alt="">
+        <div class="sm:absolute sm:top-0 sm:left-[30%] ">
+        <img class="sm:w-[400px] w-[200px] rounded-full" src="/images/about_img01.jpg" alt="">
     </div>
     <div class=" grid items-center">
 
-        <div class="w-[170px] h-[170px] animate-spin absolute top-[44%] left-[40%] rounded-full bg-gradient-to-r from-[#191D88] from-10% via-sky-500 via-30% to-emerald-500 to-90% ...">
+        <div class="sm:w-[170px] w-[85px] h-[85px] top-[70%] left-[20%] sm:h-[170px] animate-spin absolute sm:top-[44%] sm:left-[40%] rounded-full bg-gradient-to-r from-[#191D88] from-10% via-sky-500 via-30% to-emerald-500 to-90% ...">
     
         </div>
 
-    <div class="bg-[#F7A400] w-24 h-24 rounded-full  flex items-center justify-center absolute left-[44%] top-[50%]">
-        <i class="fa-solid fa-trophy text-5xl text-blue-900"></i>
+    <div class="bg-[#F7A400] sm:w-24 sm:h-24 w-14 h-14 rounded-full  flex items-center justify-center absolute sm:left-[44%] sm:top-[50%] top-[80%] left-[26%] ">
+        <i class="fa-solid fa-trophy text-2xl sm:text-5xl text-blue-900"></i>
     </div>
 
     
@@ -336,19 +326,19 @@
 
 </div>
     <img class="absolute top-0 right-0 animate-bounce" src="/images/about_shape03.png" alt="">
-    <img  class="absolute top-14 right-0 animate-pulse" src="/images/about_shape04.png" alt="">
+    <img  class="sm:absolute sm:top-14 sm:right-0 sm:animate-pulse hidden" src="/images/about_shape04.png" alt="">
 
         
 
 
     </div>
 
-            <section class=" text-center justify-center">
-            <p class="text-[#F7A400] font-bold py-3 pr-10">Simply Know About</p>
-            <article class="text-4xl font-bold text-[#191D88] py-3">We Help Organizations To<br>
+            <section class=" text-center justify-center ">
+            <p class="text-[#F7A400] font-bold py-3 pr-10 mt-9">Simply Know About</p>
+            <article class="sm:text-4xl text-2xl font-bold text-[#191D88] py-3">We Help Organizations To<br>
                 Make Ultimate Businesses<br>
                 Growth Success.</article>
-            <div class="flex items-start justify-center gap-x-4 py-5">
+            <div class="sm:flex sm:items-start sm:justify-center sm:gap-x-4 sm:py-5 ">
                 
                 
                     <div class="flex items-start justify-center gap-x-2">
@@ -377,7 +367,7 @@
             
 
                 <p class="flex flex-col text-[#191D88] text-lg py-5">We successfully cope with tasks of varying complexityprovide longerty<br> term guarantees and regularly master new Practice Area technol <br>ogiesOur portfolio includes dozen</p>
-                <div class="flex items-center justify-center gap-x-3 py-5">
+                <div class="sm:flex sm:items-center sm:justify-center gap-x-3 py-5  items-center justify-center grid">
                     <div>
                         <img class="mr-5 w-20 flex items-center justify-center" src="/images/author_img.png" alt="">
                     </div>
@@ -411,13 +401,13 @@
 
 <!--Service start  -->
 
-<section class=" w-full h-screen bg-cover bg-center" style="background-image:  url('/images/services_bg.jpg');">
+<section class=" w-full h-full sm:h-screen bg-cover bg-center" style="background-image:  url('/images/services_bg.jpg');">
 
     <h1 class="text-[#F7A400] font-bold text-lg text-center pt-[120px]">WHAT WE OFFER</h1>
-    <p class="text-[#191D88] font-bold text-4xl text-center pt-3">We Offer An Effective Wide<br>
+    <p class="text-[#191D88] font-bold text-2xl sm:text-4xl text-center pt-3">We Offer An Effective Wide<br>
         Area Business solutions</p>
         
-        <div class="container mx-auto grid grid-cols-4 items-center justify-center pt-16">
+        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-4 items-center justify-center sm:pt-16">
 
             <div class="bg-white relative  items-center justify-center w-[270px] rounded-br-lg rounded-bl-lg hover:shadow-xl">
                 <img class=" h-[200px] rounded-tr-xl rounded-tl-md rounded-bl-full" src="/images/services_img01.jpg" alt="">
@@ -514,7 +504,7 @@
             </div>
 
 
-            <div class="flex items-center justify-center gap-x-5 pt-10">
+            <div class="sm:flex items-center justify-center gap-x-5 sm:pt-10 pt-4 grid">
                 <p class="text-[#191D88] text-lg font-semibold pt-6">Empowering Businesses through Strategic Consulting With Us</p>
 
                 <div class="flex items-center justify-center pt-8">   <a href="#_" class="px-14 py-3 items-center relative rounded group overflow-hidden  bg-[#F7A400] text-white inline-block font-bold ">
@@ -544,7 +534,7 @@
 
     
 
-    <div class="container mx-auto grid grid-cols-2">
+    <div class="container mx-auto grid sm:grid-cols-2">
         <div class="pt-20">
         <p class="text-[#F7A400] text-lg font-semibold text-center ">Why We Are The Best</p>
         <h1 class="text-center text-white text-4xl font-bold pt-4">We Offer Business Insight<br>
@@ -577,7 +567,7 @@
     <div class="relative">
         <img class="rounded-lg pt-24 relative z-0" src="/images/choose_img01.jpg" alt="">
 
-        <img class="rounded-lg absolute bottom-[2%] left-[-10%] " src="/images/choose_img02.jpg" alt="">
+        <img class="sm:rounded-lg sm:absolute sm:bottom-[2%] sm:left-[-10%] hidden" src="/images/choose_img02.jpg" alt="">
 
         <img class="w-12 h-12 absolute left-[15%] -z-0 animate-bounce" src="/images/choose_img_shape.png" alt="">
     </div>
@@ -592,12 +582,12 @@
 
 <section class="bg-[#f0efec] w-full h-[350px] bg-right-bottom bg-no-repeat relative"  style="background-image: url('/images/counter_shape03.png');">
     
-    <div class="w-auto h-screen bg-left-top bg-no-repeat"  style="background-image: url('/images/counter_shape01.png');">
-    <div class="container mx-auto  flex items-center justify-center gap-x-7 pt-[130px] ">
+    <div class="w-auto sm:h-screen h-full bg-left-top bg-no-repeat"  style="background-image: url('/images/counter_shape01.png');">
+    <div class="container mx-auto  sm:flex items-center justify-center gap-x-7 sm:pt-[130px] grid ">
         <div class="flex items-center justify-center gap-x-6">
             <i class="fa-solid fa-trophy text-[#F7A400] text-6xl"></i>
             <div>
-                <h1 class="text-[#191D88] text-5xl font-bold">45+</h1>
+                <h1 class="text-[#191D88] text-2xl sm:text-5xl font-bold">45+</h1>
                 <p class="text-[#191D88] text-lg font-semibold">Successfully<br>
                     Completed Projects</p>
             </div>
@@ -607,7 +597,7 @@
             <i class="fa-regular fa-face-laugh-beam text-[#F7A400] text-6xl"></i>
             
             <div>
-                <h1 class="text-[#191D88] text-5xl font-bold">92K</h1>
+                <h1 class="text-[#191D88] text-2xl sm:text-5xl font-bold">92K</h1>
                 <p class="text-[#191D88] text-lg font-semibold">Satisfied<br>
                     100% Our Clients</p>
             </div>
@@ -616,11 +606,11 @@
 
 
         <div class="flex items-center justify-center gap-x-6">
-            <i class="fa-solid fa-globe text-[#F7A400] text-6xl"></i>
+            <i class="fa-solid fa-globe text-[#F7A400] sm:text-6xl"></i>
            
             
             <div>
-                <h1 class="text-[#191D88] text-5xl font-bold">19+</h1>
+                <h1 class="text-[#191D88] text-2xl sm:text-5xl font-bold">19+</h1>
                 <p class="text-[#191D88] text-lg font-semibold">All Over The World<br>
                     We Are Available</p>
             </div>
@@ -634,8 +624,8 @@
            
             
             <div>
-                <h1 class="text-[#191D88] text-5xl font-bold">25+</h1>
-                <p class="text-[#191D88] text-lg font-semibold">Years of Experiences<br>
+                <h1 class="text-[#191D88] text-2xl sm:text-5xl font-bold">25+</h1>
+                <p class="text-[#191D88] text-lg font-semibold ">Years of Experiences<br>
                     To Run This Company</p>
             </div>
 
@@ -665,16 +655,16 @@
 <!--OUR PROJECTS Start -->
 
 
-<section class="w-full h-screen pt-28 relative">
+<section class="w-full h-full sm:h-screen pt-20 sm:pt-28 relative">
     
     <div class="container mx-auto">
 
     <p class="text-[#F7A400] font-semibold text-center">OUR PROJECTS</p>
 
-    <p class="text-[#191D88] text-4xl font-bold text-center pt-3 ">Let’s Discover All Our Clients<br>
+    <p class="text-[#191D88] text-2xl sm:text-4xl font-bold text-center pt-3 ">Let’s Discover All Our Clients<br>
         Recent Project</p>
 
-        <div class=" grid grid-cols-4 pt-10 gap-x-20">
+        <div class=" grid sm:grid-cols-4 pt-10 gap-x-20">
 
             <!--Group Hover start-->
            
@@ -793,7 +783,7 @@
 
                 
             </div>
-            <div class="flex items-center justify-center gap-x-6 pt-6">
+            <div class="sm:flex items-center justify-center gap-x-6 pt-6 grid pb-1">
             <p class="text-[#191D88] text-lg font-semibold pt-4 text-center">We successfully cope with tasks of varying complexity,<br>
                 provide long-term guarantees and regularly</p>
                 <div class="flex items-center justify-center ">
@@ -819,7 +809,7 @@
         </div>
 
     </div>
-    <img class="absolute top-[21%] right-[3%] z-[-1] animate-spin" src="/images/project_shape02.png" alt="">
+    <img class=" absolute top-[21%] right-[3%] z-[-1] animate-spin" src="/images/project_shape02.png" alt="">
     <img class="absolute bottom-[15%] left-[5%] rotate-[-45deg] animate-infinite-scroll" src="/images/project_shape01.png" alt="">
 
 </section>
@@ -837,15 +827,15 @@
   <section class="w-full h-[600px] bg-cover bg-center pt-[20%] relative z-10 " style="background-image: url(/images/pexels-fauxels-3184416.jpg);">
     <div class=" absolute inset-0 w-full h-[600px] bg-cover bg-gray-700 bg-center  opacity-70 z-[-1]">
         
-        <p class="text-white font-extrabold text-center pt-48  text-5xl">Offering The Best Experience Of<br>
+        <p class="text-white font-extrabold text-center pt-20 sm;pt-48 text-2xl sm:text-5xl">Offering The Best Experience Of<br>
             Business Consulting Services</p>
 
-            <div class="flex items-center justify-center gap-8">
+            <div class="sm:flex items-center justify-center gap-8 grid">
 
                 
                     
     
-                    <div class="flex items-center justify-center pt-16">   <a href="#_" class="px-14 py-3 items-center relative rounded group overflow-hidden  bg-[#0E104B] text-white inline-block font-bold ">
+                    <div class="flex items-center justify-center pt-16 ">   <a href="#_" class="px-14 py-3 items-center relative rounded group overflow-hidden  bg-[#0E104B] text-white inline-block font-bold ">
                         <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#F7A400] group-hover:h-full opacity-90">
                             
                               
@@ -881,10 +871,10 @@
 
   <!--Our team start -->
   <section class="container mx-auto pt-8">
-    <div class="flex items-center justify-between">
+    <div class="sm:flex items-center justify-between grid p-2">
             <div>
             <p class="text-[#F7A400] text-lg font-semibold">MEET OUR TEAM</p>
-            <h1 class="text-[#191D88]  text-4xl font-bold">Financial Expertise You<br>
+            <h1 class="text-[#191D88] text-2xl sm:text-4xl font-bold">Financial Expertise You<br>
                 Can Trust</h1>
             </div>
                 <div>
@@ -893,7 +883,7 @@
         
     </div>
 
-    <div class=" grid grid-cols-4 pt-10 gap-x-6">
+    <div class=" grid sm:grid-cols-4 pt-10 gap-y-2 sm:gap-x-6">
         
         <div class=" border border-gray-300 rounded-xl overflow-hidden relative cursor-pointer  transform h-auto  w-auto transition duration-500 hover:scale-105">
             
@@ -945,50 +935,281 @@
   <!--Our team end -->
   
 
-  <!--protfolio start -->
-
-  <section class="container mx-auto bg-[#171A7C] border border-gray-400 rounded-lg py-64 mt-10 bg-left-bottom bg-no-repeat" style="background-image: url(/images/consulting_shape.png);">
-    <div class="flex items-center justify-between">
-        <div class="flex items-center justify-center gap-x-6">
-            <div class="w-96 h-52 bg-[#F7A400] flex items-center justify-center pl-3">
-                <p class="text-white text-3xl font-bold">40+ <br> Consulting <br>Farm</p>
-
-            </div>
-            <div>
-                <h1 class="text-3xl text-white font-bold pt-5">Trusted , Happy & Satisfied Businesses</h1>
-                <p class="text-white text-lg font-semibold pt-5">When you work with HR Solutions, you get the best. We provide <br> adaptable solutions that allow you to be a part of the entire process</p>
-            </div>
-        </div>
-        <img src="/images/consulting_img.jpg" alt="">
-
-    </div>
-
-  </section>
-
-
-
-
-
-  <!--protfolio end -->
+ 
 
 
   <!--Testimonial start -->
 
-  <section class="bg-[#FFFBF3] w-full h-screen">
-    <div class="container">
+  <section class="bg-[#FFFBF3] w-full h-[700px] mt-[250px] bg-right-top bg-no-repeat relative"  style="background-image: url(/images/testimonial_shape06.png);">
+    <div class="container mx-auto grid sm:grid-cols-2">
+        <div class="pt-2">
+        <img class="sm:absolute sm:bottom-0 sm:left-[20%] hidden" src="/images/testimonial_shape01.png" alt="">
+        <img class="sm:absolute bottom-[10%] left-[25%] hidden"  src="/images/testimonial_shape03.png" alt="">
+        <img class="sm:absolute bottom-[10%] left-[46%] animate-infinite-scroll hidden" src="/images/testimonial_shape04.png" alt="">
+
+         <img class="absolute bottom-0 left-[28%]" src="/images/testimonial_img.png" alt="">
+         <img class="absolute bottom-[40%] left-[24%] animate-bounce" src="/images/testimonial_shape02.png" alt="">
+         <img class="sm:absolute bottom-0 right-[10%] hidden" src="/images/testimonial_shape05.png" alt="">
+         
+        </div>
+
+
+         <div class="pt-[40%] pl-12">
+            <h1 class="text-xl text-[#171A7C] font-bold">Mr.Robey Alexa</h1>
+               <h2 class=" text-[#171A7C] font-semibold pt-1"> CEO, Apexa Agency</h2>
+               <div class="py-4">
+               <i class="fa-solid fa-star text-xl text-[#F7A400]"></i>
+               <i class="fa-solid fa-star text-xl text-[#F7A400]"></i>
+               <i class="fa-solid fa-star text-xl text-[#F7A400]"></i>
+               <i class="fa-solid fa-star text-xl text-[#F7A400]"></i>
+               <i class="fa-regular fa-star text-xl text-[#F7A400]"></i>
+            </div>
+               <div class="py-4 flex  gap-x-3">
+               <p class="text-[#171A7C] italic text-lg"> “ Morem ipsum dolor sit amet, consectetur adipisc awing <br> elita florai sum dolor sit amet, consectetur area Borem <br> ipsum dolor sit amet, consectetur.”</p>
+               <div class="bg-[#F7A400] w-20 h-20 flex items-center justify-center rounded-tl-[40px]">
+                <i class="fa-solid fa-quote-right text-white text-5xl"></i>
+               </div>
+            </div>
+            <div class="flex pt-6 gap-x-3">
+                <img class="w-16 opacity-80" src="/images/testi_avatar01.png" alt="">
+                <img class="w-16  opacity-80" src="/images/testi_avatar02.png" alt="">
+                <img class="w-16  opacity-80" src="/images/testi_avatar03.png" alt="">
+                <img class="w-16  opacity-80" src="/images/testi_avatar04.png" alt="">
+            </div>
+                
+               
+         </div>
+
+
         
     </div>
+
+    <!--protfolio start -->
+
+    <section class="w-[370px] h-auto sm:container mx-auto bg-[#171A7C]  border border-gray-400 rounded-lg sm:mt-20 bg-left-bottom bg-no-repeat sm:py-42 absolute top-[-32%] left-[9%]" style="background-image: url(/images/consulting_shape.png);">
+        <div class="sm:flex items-center sm:justify-between sm:pl-4 grid">
+            <div class="grid p-2 sm:flex items-center justify-center sm:gap-x-6">
+                <div class="sm:w-48 sm:h-40 w-28 h-20 bg-[#F7A400] flex items-center justify-center ">
+                    <p class="text-white text-xl sm:text-3xl font-bold">40+ <br> Consulting <br>Farm</p>
+    
+                </div>
+                <div >
+                    <h1 class="text-xl sm:text-3xl text-white font-bold pt-5">Trusted , Happy & Satisfied Businesses</h1>
+                    <p class="text-white  sm:text-lg font-semibold pt-5">When you work with HR Solutions, you get the best. We provide <br> adaptable solutions that allow you to be a part of the entire process</p>
+                </div>
+            </div>
+            <img src="/images/consulting_img.jpg" alt="">
+    
+        </div>
+    
+      </section>
+    
+      <!--protfolio end -->
+
+
   </section>
-
-
-
-
-
 
    <!--Testimonial end -->
 
 
 
+    <!--Blog Start -->
+
+    <section class="w-full h-full sm:h-auto bg-center bg-cover pb-14 relative" style="background-image: url(/images/blog_post_bg.jpg);">
+
+        <img class="absolute top-0 left-0 " src="/images/blog_shape01.png" alt="">
+        <img class="absolute bottom-0 right-0" src="/images/blog_shape02.png" alt="">
+
+
+        <p class="text-[#F7A400] font-semibold text-center pt-20">OUR BLOG UPDATE</p>
+        <h1 class="text-[#171A7C] text-2xl sm:text-4xl font-bold  text-center pt-4">Featured News And Insights</h1>
+        <div class="container mx-auto">
+
+            <div class="container grid sm:grid-cols-3 sm:pt-7">
+
+                <div class="bg-white border border-gray-300 rounded-lg w-[450px] h-[508] p-[30px] relative">
+
+                    <div class="bg-[#F7A400] w-20 h-6 text-center rounded-sm hover:bg-[#191D88] absolute top-[12%] left-[9%]">
+                        <a class="font-semibold text-white" href="#">Business</a>
+                       </div>
+
+                    <img class="w-[388px] h-[248px] rounded-md cursor-pointer" src="/images/blog_post01.jpg" alt="">
+                    
+                    <a class="text-[#171A7C] text-lg font-bold pt-4 cursor-pointer hover:text-[#F7A400]" href="#">Marketing your are business <br> downturn now a days</a>
+                    <div class="flex gap-x-2  pt-2">
+                        <figure>
+                            <img class="w-10" src="/images/blog_avatar01.png" alt="">
+                        </figure>
+                        <div class="flex items-center justify-center gap-x-1">
+                            <p class="text-[#171A7C] text-lg font-semibold">By</p>
+                
+                            <a class="text-[#F7A400] text-lg font-bold hover:text-[#171A7C] cursor-pointer" href="#">Doman Smith</a>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between p-3">
+                        
+                                  <!--button start  -->
+            <div class="flex items-center justify-center pt-2 ">   <a href="#_" class="px-7 py-3 items-center relative rounded group overflow-hidden  bg-[#cfe2ff] text-[#191D88] inline-block font-bold">
+                <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#191D88] group-hover:h-full opacity-90">
+                    
+                      
+                </span>
+                <span class="relative group-hover:text-white">READ MORE  </span>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[2px] top-[30%] group-hover:text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                  </svg>
+                </a></div>
+                
+                <!--button end  -->
+                <div class="flex items-center justify-center gap-x-1">
+                    <i class="fa-solid fa-calendar-days text-[#191D88] text-lg"></i>
+                    <p class="text-[#191D88]  text-lg">Oct 21, 2024</p>
+                </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="bg-white border border-gray-300 rounded-lg w-[450px] h-[508] p-[30px] relative">
+
+                        <div class="bg-[#F7A400] w-16 h-6 text-center rounded-sm hover:bg-[#191D88] absolute top-[12%] left-[9%]">
+                            <a class="font-semibold text-white" href="#">Audit</a>
+                           </div>
+    
+                        <img class="w-[388px] h-[248px] rounded-md cursor-pointer" src="/images/blog_post02.jpg" alt="">
+                        
+                        <a class="text-[#171A7C] text-lg font-bold pt-4 cursor-pointer hover:text-[#F7A400]" href="#">Marketing your are business <br> downturn now a days</a>
+                        <div class="flex gap-x-2  pt-2">
+                            <figure>
+                                <img class="w-10" src="/images/blog_avatar01.png" alt="">
+                            </figure>
+                            <div class="flex items-center justify-center gap-x-1">
+                                <p class="text-[#171A7C] text-lg font-semibold">By</p>
+                    
+                                <a class="text-[#F7A400] text-lg font-bold hover:text-[#171A7C] cursor-pointer" href="#">Doman Smith</a>
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between p-3">
+                            
+                                      <!--button start  -->
+                <div class="flex items-center justify-center pt-2 ">   <a href="#_" class="px-7 py-3 items-center relative rounded group overflow-hidden  bg-[#cfe2ff] text-[#191D88] inline-block font-bold">
+                    <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#191D88] group-hover:h-full opacity-90">
+                        
+                          
+                    </span>
+                    <span class="relative group-hover:text-white">READ MORE  </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[2px] top-[30%] group-hover:text-white">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                    </a></div>
+                    
+                    <!--button end  -->
+                    <div class="flex items-center justify-center gap-x-1">
+                        <i class="fa-solid fa-calendar-days text-[#191D88] text-lg"></i>
+                        <p class="text-[#191D88]  text-lg">Oct 21, 2024</p>
+                    </div>
+                            </div>
+                        </div>
+
+
+                        <div class="bg-white border border-gray-300 rounded-lg w-[450px] h-[508] p-[30px] relative">
+
+                            <div class="bg-[#F7A400] w-24 h-6 text-center rounded-sm hover:bg-[#191D88] absolute top-[12%] left-[9%]">
+                                <a class="font-semibold text-white" href="#">Investment</a>
+                               </div>
+        
+                            <img class="w-[388px] h-[248px] rounded-md cursor-pointer" src="/images/blog_post03.jpg" alt="">
+                            
+                            <a class="text-[#171A7C] text-lg font-bold pt-4 cursor-pointer hover:text-[#F7A400]" href="#">Marketing your are business <br> downturn now a days</a>
+                            <div class="flex gap-x-2  pt-2">
+                                <figure>
+                                    <img class="w-10" src="/images/blog_avatar01.png" alt="">
+                                </figure>
+                                <div class="flex items-center justify-center gap-x-1">
+                                    <p class="text-[#171A7C] text-lg font-semibold">By</p>
+                        
+                                    <a class="text-[#F7A400] text-lg font-bold hover:text-[#171A7C] cursor-pointer" href="#">Doman Smith</a>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between p-3">
+                                
+                                          <!--button start  -->
+                    <div class="flex items-center justify-center pt-2 ">   <a href="#_" class="px-7 py-3 items-center relative rounded group overflow-hidden  bg-[#cfe2ff] text-[#191D88] inline-block font-bold">
+                        <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#191D88] group-hover:h-full opacity-90">
+                            
+                              
+                        </span>
+                        <span class="relative group-hover:text-white">READ MORE  </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[2px] top-[30%] group-hover:text-white">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                          </svg>
+                        </a></div>
+                        
+                        <!--button end  -->
+                        <div class="flex items-center justify-center gap-x-1">
+                            <i class="fa-solid fa-calendar-days text-[#191D88] text-lg"></i>
+                            <p class="text-[#191D88]  text-lg">Oct 21, 2024</p>
+                        </div>
+                                </div>
+                            </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--Blog End-->
+
+
+
+    <!--Request a call back Start-->
+
+    <form class="w-[350px] p-2 sm:w-full h-full sm:h-[320px] bg-[#14176c] relative">
+
+        <img class="absolute top-0 left-0 w-[350px]" src="/images/call_back_shape.png" alt="">
+
+        <div class="container mx-auto grid sm:grid-cols-2 items-center justify-center">
+            <div class="">
+                <h1 class="text-white text-2xl font-bold pt-10 sm:pt-24 ml-2">Request A Call Back</h1>
+                <p class="text-white text-lg font-semibold pt-3">Ever find yourself staring at your computer screen a good consulting <br> slogan to come to mind? Oftentimes.</p>
+            </div>
+            <div class="grid sm:grid-cols-2 pt-[80px] gap-y-2 items-center justify-center mr-6">
+                
+                <div class="flex items-center justify-center px-2">
+                    <input class=" w-[260px] h-[50px] py-15 px-18 placeholder:px-3 rounded-sm outline-none placeholder:font-semibold placeholder:text-gray-400  text-[#14176c] font-semibold px-3" type="text" placeholder="Name*">
+                </div>
+
+                <div class="flex items-center justify-center px-2">
+                    <input class=" w-[260px] h-[50px] py-15 px-18 placeholder:px-3 rounded-sm outline-none placeholder:font-semibold placeholder:text-gray-400  text-[#14176c] font-semibold px-3" type="email" placeholder="Email*">
+                </div>
+
+                <div class="flex items-center justify-center px-2">
+                    <input class=" w-[260px] h-[50px] py-15 px-18 placeholder:px-3 rounded-sm outline-none placeholder:font-semibold placeholder:text-gray-400  text-[#14176c] font-semibold px-3" type="telephone" placeholder="Phone*">
+                </div>
+
+                   <!--button start  -->
+                   <div class="flex items-center justify-center pt-2 ">   <a href="#_" class="w-[260px] h-[50px]  px-7 py-3 items-center relative rounded group overflow-hidden  bg-[#F7A400] text-white inline-block font-bold">
+                    <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-300 ease-out transform translate-y-0 bg-[#cfe2ff] group-hover:h-full opacity-90 ">
+                        
+                          
+                    </span>
+                    <span class="relative group-hover:text-[#191D88]">SAND NOW </span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 absolute right-[8px] top-[30%] group-hover:text-[#191D88]">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                      </svg>
+                    </a></div>
+                    
+                    <!--button end  -->
+
+            
+        </div>
+
+        </div>
+
+    </form>
 
 
 
@@ -997,33 +1218,176 @@
 
 
 
+    <!--Request a call back End-->
 
 
+     <!--Top Footer Start-->
+
+     <section class="w-full h-full sm:h-auto pb-16 bg-right-top bg-no-repeat relative" style="background-image: url(/images/footer_shape02.png);">
+
+        <div class="container mx-auto ">
+
+            <div class="grid sm:grid-cols-4">
+
+                <div class="flex flex-col items-center justify-center pt-[120px] ">
+                    <a href="#">
+                    <img class="w-[120px]" src="/images/logo (1).png" alt="">
+                </a>
+                    <p class="text-[#191D88] font-semibold pt-7 text-center">Felis consquat magnis fames sagittis <br> ultrices plasodales porttitor quisque <br> ultrice tempor turpis.</p>
+                    <div class="flex gap-x-3 pt-7">
+                    <div class="w-10 h-10  bg-[#cfe2ff] rounded-sm flex items-center justify-center group hover:bg-[#191D88] cursor-pointer">
+                    <i class="fa-brands fa-facebook-f text-[#191D88] text-xl group-hover:text-white"></i>
+                </div>
+                <div class="w-10 h-10  bg-[#cfe2ff] rounded-sm flex items-center justify-center group hover:bg-[#191D88] cursor-pointer">
+                    <i class="fa-brands fa-twitter text-[#191D88] text-xl group-hover:text-white"></i>
+                </div>
+                <div class="w-10 h-10  bg-[#cfe2ff] rounded-sm flex items-center justify-center group hover:bg-[#191D88] cursor-pointer">
+                    <i class="fa-brands fa-instagram text-[#191D88] text-xl group-hover:text-white"></i>
+                </div>
+                <div  class="w-10 h-10  bg-[#cfe2ff] rounded-sm flex items-center justify-center group hover:bg-[#191D88] cursor-pointer">
+                    <i class="fa-brands fa-pinterest text-[#191D88] text-xl group-hover:text-white"></i>
+                </div>
+                <div  class="w-10 h-10  bg-[#cfe2ff] rounded-sm flex items-center justify-center group hover:bg-[#191D88] cursor-pointer">
+                    <i class="fa-brands fa-youtube text-[#191D88] text-xl group-hover:text-white"></i>
+                </div>
+            </div>
+                </div>
+
+                <div>
+                    
+                    
+                    <div class="flex flex-col items-center justify-center pt-[120px]">
+                        <p class="text-[#191D88] text-xl font-bold  ">Information</p>
+                        <div class="border-b-4 border-b-[#F7A400] w-10 h-3 rounded-sm ">
+
+                        </div>
+                 
+            </div>
+                <div class="flex gap-x-3 items-center justify-center pt-4">
+                <i class="fa-solid fa-phone text-[#191D88] text-xl"></i>
+                <a class="text-[#191D88] text-xl hover:text-[#F7A400]" type="telephone" href="#">+123 888 9999</a>
+            </div>
+
+            <div class="flex gap-x-3 items-center justify-center pt-4">
+                <i class="fa-regular fa-envelope text-[#191D88] text-xl"></i>
+                <a class="text-[#191D88] text-xl hover:text-[#F7A400]" href="#">info@bpartho</a>
+            </div>
+
+            <div class="flex gap-x-3 items-center justify-center pt-4 ">
+                <i class="fa-solid fa-location-dot text-[#191D88] text-xl"></i>
+                <p class="text-[#191D88] text-xl">Sydney Harbour Bridge <br> Circular City of Sydney, <br> Australia.</p>
+            </div>
+
+                </div>
+
+                <div>
+
+                    <div class="flex flex-col items-center justify-center pt-[120px]">
+                        <p class="text-[#191D88] text-xl font-bold  ">Top Links</p>
+                        <div class="border-b-4 border-b-[#F7A400] w-10 h-3 rounded-sm ">
+
+                        </div>
+                  </div>
+
+                  <div class="flex flex-col p-4 items-center justify-center">
+                    <a class="p-2 px-4 text-[#191D88] hover:text-[#F7A400] font-semibold group" href="#">
+                        How it’s Work
+                        <div class="bg-amber-500 h-[2px] w-0 group-hover:w-[100px] transition-all duration-500"></div>
+                    </a>
+                    <a class="p-2 px-4 text-[#191D88] font-semibold hover:text-[#F7A400] group" href="#">
+                        Partners
+                        <div class="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    </a>
+                    <a class="p-2 px-4 text-[#191D88] font-semibold hover:text-[#F7A400]  group" href="#">
+                        Testimonials
+                        <div class="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    </a>
 
 
+                    <a class="p-2 px-4 text-[#191D88] font-semibold hover:text-[#F7A400]  group" href="#">
+                        Case Studies
+                        <div class="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    </a>
+
+                    <a class="p-2 px-4 text-[#191D88] font-semibold hover:text-[#F7A400] group" href="#">
+                        Pricing
+                        <div class="bg-amber-500 h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+                    </a>
 
 
+                </div>
+                    
+
+                </div>
+
+                <div>
+                    <div class="flex flex-col items-center justify-center pt-[120px]">
+                        <p class="text-[#191D88] text-xl font-bold  ">Instagram Posts</p>
+                        <div class="border-b-4 border-b-[#F7A400] w-10 h-3 rounded-sm ">
+
+                        </div>
+                        <div class="grid grid-cols-3 pt-5 gap-4 ">
+                            <img class="w-[90px] rounded-md cursor-pointer" src="/images/footer_insta01.jpg" alt="">
+                            <img class="w-[90px] rounded-md cursor-pointer"  src="/images/footer_insta02.jpg" alt="">
+                            <img class="w-[90px] rounded-md cursor-pointer" src="/images/footer_insta03.jpg" alt="">
+                            <img class="w-[90px] rounded-md cursor-pointer" src="/images/footer_insta04.jpg" alt="">
+                            <img class="w-[90px] rounded-md cursor-pointer" src="/images/footer_insta05.jpg" alt="">
+                            <img class="w-[90px] rounded-md cursor-pointer" src="/images/footer_insta06.jpg" alt="">
+                        </div>
+                  </div>
+                </div>
+
+               
+           
+
+            </div>
+            <img class="w-[250px] absolute bottom-0 left-0" src="/images/footer_shape01.png" alt="">
+            <img  class=" absolute top-[18%] right-[4%]" src="/images/footer_shape03.png" alt="">
+
+        </div>
+
+     </section>
+
+     <!--Top Footer End-->
 
 
+      <!-- Bottom Footer Start -->
+       <section class="w-full h-full sm:h-[130px] py-[35px] bg-[#ECF6FA] border-t border-t-gray-200">
 
+        <div class="container mx-auto">
+            <div class="sm:flex items-center justify-between grid ml-4">
+            <p class="text-[#191D88] font-semibold">Copyright © <a class="hover:text-[#F7A400]" href="#"> Apexa</a> | All Right Reserved <br> Support Terms & Conditions Privacy Policy.</p>
 
+            <div  class="sm:flex items-center justify-center sm:gap-x-2 grid py-2 px-4">
+                <p class="text-[#191D88] text-lg font-bold text-center">Newsletter SignUp!</p>
+                <div class="flex items-center justify-center px-2 relative">
+                    <input class="w-[350px] h-[50px] sm:w-[700px] sm:h-[50px] py-15 px-18 placeholder:px-18 rounded-3xl outline-none placeholder:font-semibold placeholder:text-gray-400  text-[#14176c] font-semibold px-5" type="email" placeholder="E-Mail Type...">
+                </div>
 
+                 <!--button start  -->
+                 <div class="flex items-center justify-center  absolute right-[5%]   sm:right-[10%] sm:pb-1">   <a href="#_" class="w-[150px] h-[45px] sm:w-[150px] sm:h-[45px]  px-7 py-3 items-center relative rounded-3xl group overflow-hidden  bg-[#F7A400] text-white inline-block font-bold">
+                    <span class="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-300 ease-out transform translate-y-0 bg-[#191D88] group-hover:h-full opacity-90 ">
+                        
+                          
+                    </span>
+                    <span class="relative group-hover:text-white">SAND NOW </span>
+                    
+                    </a></div>
+                    
+                    <!--button end  -->
 
+            </div>
+            
+        </div>
 
+        </div>
 
+       </section>
 
-
-
-
+      <!-- Bottom Footer End -->
+    
 
 <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
-    
-
-
-
-    
-
-
 
 </body>
 </html>
