@@ -1445,6 +1445,14 @@ video {
        column-gap: 2rem;
 }
 
+.gap-y-20 {
+  row-gap: 5rem;
+}
+
+.gap-y-28 {
+  row-gap: 7rem;
+}
+
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -2681,6 +2689,11 @@ video {
   .sm\:gap-x-16 {
     -moz-column-gap: 4rem;
          column-gap: 4rem;
+  }
+
+  .sm\:gap-x-8 {
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
   }
 
   .sm\:rounded-lg {
